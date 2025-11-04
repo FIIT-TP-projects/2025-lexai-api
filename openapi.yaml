@@ -40,9 +40,6 @@ info:
     - Dates in ISO 8601 format (e.g., `2025-01-15T10:30:00.000Z`)
     - Contract always in **Markdown format**
   version: 1.0.0
-  contact:
-    name: LexAI Development Team
-    email: dev@lexai.example.com
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT
