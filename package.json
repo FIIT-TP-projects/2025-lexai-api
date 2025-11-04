@@ -1,0 +1,12 @@
+{
+  "name": "lexai-api-docs",
+  "version": "1.0.0",
+  "description": "LexAI API Documentation with ReDoc",
+  "scripts": {
+    "serve": "npx serve . -p 8080",
+    "redoc:serve": "npx @redocly/cli preview-docs openapi.yaml --port 8080",
+    "redoc:bundle": "npx @redocly/cli bundle openapi.yaml --output ./dist/openapi.json"
+  },
+  "author": "LexAI Development Team",
+  "license": "MIT"
+}
